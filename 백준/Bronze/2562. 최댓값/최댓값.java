@@ -1,25 +1,28 @@
-import java.util.Scanner;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         
         int[] arr = new int[9];
-        int max = -1;
+        int max = 0;
         int maxIndex = 0;
         
         for(int i=0; i<9; i++) {
-            arr[i] = sc.nextInt();
+            arr[i] = Integer.parseInt(bf.readLine());
             
-            if(arr[i] >= max) {
+            if(max <= arr[i]) {
                 max = arr[i];
                 maxIndex = i;
             }
         }
         
-        System.out.println(max);
-        System.out.println(maxIndex + 1);
+        bw.write(max + "\n" + (maxIndex+1));
+       // bw.write(maxIndex);  -> 이렇게 하면 출력 결과가 .으로 나온다
         
-        sc.close();
+        bf.close();
+        bw.flush();
+        bw.close();
     }
 }
