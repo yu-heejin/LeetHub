@@ -16,7 +16,7 @@ public class Main {
                 //01~09 : d가 1~9
                 //10~99 : d가 10의 자리 - 1의 자리
             } else {
-                int tmp = i;
+                int tmp = i;   //n이 아니라 i!!!!!!!!!!
                 while(tmp != 0) {
                     arr[j] = tmp % 10;
                     j++;
