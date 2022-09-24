@@ -16,7 +16,7 @@ public class Main {
         boolean[] arr = new boolean[1000001];
         Arrays.fill(arr, true);   //초기 값을 일단 소수라고 판단
         
-        arr[1] = false;
+        arr[1] = false;  //1은 소수가 아니기 때문에 처리를 따로 해줘야함
         
         //배수의 시작은 4부터임. 숫자 3이하까지는 1을 제외하고 소수에 해당하기 때문
         //2 -> 4, 6, 8, 10 ...
