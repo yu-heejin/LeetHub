@@ -39,7 +39,7 @@ public class Main {
                 }
             }
             
-            //3. 뒤를 오름차순으로 정렬한다.
+            //3. 뒤를 왼쪽부터!!! 오름차순으로 정렬한다.
             for(int i=j+1; i<n; i++) {
                 for(int k=i+1; k<n; k++) {
                     if(arr[i] > arr[k]) {
