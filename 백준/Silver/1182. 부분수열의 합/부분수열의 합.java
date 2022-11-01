@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 // 다시 풀어볼 문제
+// 등차수열이 아니라 그냥 수열이었음!!!!!!!!!!!!!!
+// 조합으로 풀었어도 괜찮았을 것 같다. 부분집합의 개념과 유사하기 때문
 public class Main {
     static int answer = 0;
     public static void dfs(int[] numbers, int depth, int sum, int s, int n) {
@@ -36,9 +38,8 @@ public class Main {
         // dfs 백트래킹 알고리즘 구현
         // 조건에 충족하지 않으면 이전 깊이로 돌아가 이어서 진행하는 방식
         // 조건은 부분수열의 합(sum)이 s와 같아야한다는 것!
-        
         dfs(numbers, 0, 0, s, n);
-        if (s == 0) answer -= 1;
+        if (s == 0) answer -= 1;   // 공집합의 경우를 하나 빼준다.
         
         writer.write(String.valueOf(answer));
         
