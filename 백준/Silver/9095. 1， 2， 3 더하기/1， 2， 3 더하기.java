@@ -1,24 +1,63 @@
 import java.util.Scanner;
 
 public class Main {
-    // ** 다시 풀어볼 문제
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        int[] dp = new int[11];   //n은 양수이며 11보다 작다 (1~10)
-        
-        dp[1] = 1;  //1
-        dp[2] = 2;  //1+1, 2
-        dp[3] = 4;  //1+1+1, 1+2, 2+1, 3
-        for(int i=4; i<11; i++) {
-            //원래 있던 숫자로 만들고자 하면 1+3, 2+2, 3+1
-            //각 경우의 수에 +1, +2, +3을 해주기만 하면 됨
-            dp[i] = dp[i-3] + dp[i-2] + dp[i-1];
+    // 다시 풀어볼 문제...
+    final static int MAX_LENGTH = 11;
+    static Scanner sc = new Scanner(System.in);
+    
+    public static int returnDPValue(int index) {
+        if (index == 1) {
+            return 1;
         }
         
-        for(int i=0; i<t; i++) {
+        if (index == 2) {
+            return 2;
+        }
+        
+        if (index == 3) {
+            return 4;
+        }
+        
+        return 0;
+    }
+    
+    public static int[] initDPArray(int[] dp) {
+        for (int i = 0; i <= MAX_LENGTH; i++) {
+            dp[i] = returnDPValue(i);
+        }
+        
+        return dp;
+    }
+    
+    public static void initNValue(int t, int[] dp) {
+        for (int i = 0; i < t; i++) {
             int n = sc.nextInt();
-            System.out.println(dp[n]);
+            printCalculationResult(n, dp);
         }
+    }
+    
+    public static int[] calculationResult(int[] dp) {
+        for (int i = 4; i <= MAX_LENGTH; i++) {
+            dp[i] = dp[i-3] + dp[i-2] + dp[i-1];
+            // 패턴을 보면 해당 점화식을 도출할 수 있음
+        }
+        
+        return dp;
+    }
+    
+    public static void printCalculationResult(int n, int[] dp) {
+        System.out.println(dp[n]);
+    }
+    
+    public static void main(String[] args) {
+        int t = sc.nextInt();
+        int[] dp = new int[MAX_LENGTH + 1];
+        
+        dp = initDPArray(dp);
+        dp = calculationResult(dp);
+        
+        initNValue(t, dp);
+        
+        sc.close();
     }
 }
