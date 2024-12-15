@@ -1,10 +1,9 @@
 SELECT customer_number
 FROM (
-    SELECT customer_number
-        , COUNT(customer_number) AS count
+    SELECT COUNT(order_number) AS order_count
+        , customer_number
     FROM Orders
     GROUP BY customer_number
-    ORDER BY count DESC
-    LIMIT 1
-) C
-;
+) R
+ORDER BY order_count DESC
+LIMIT 1;
