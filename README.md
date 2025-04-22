@@ -37,4 +37,12 @@ LeetHub
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yu-heejin/LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
+## Linked List
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/yu-heejin/LeetHub/tree/master/0061-rotate-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/yu-heejin/LeetHub/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
