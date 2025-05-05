@@ -28,6 +28,7 @@ LeetHub
 | [0178-rank-scores](https://github.com/yu-heejin/LeetHub/tree/master/0178-rank-scores) |
 | [0183-customers-who-never-order](https://github.com/yu-heejin/LeetHub/tree/master/0183-customers-who-never-order) |
 | [1155-product-sales-analysis-iii](https://github.com/yu-heejin/LeetHub/tree/master/1155-product-sales-analysis-iii) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/yu-heejin/LeetHub/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [3767-find-students-who-improved](https://github.com/yu-heejin/LeetHub/tree/master/3767-find-students-who-improved) |
 ## Hash Table
 |  |
