@@ -30,6 +30,7 @@ LeetHub
 | [1155-product-sales-analysis-iii](https://github.com/yu-heejin/LeetHub/tree/master/1155-product-sales-analysis-iii) |
 | [1258-article-views-i](https://github.com/yu-heejin/LeetHub/tree/master/1258-article-views-i) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/yu-heejin/LeetHub/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/yu-heejin/LeetHub/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3767-find-students-who-improved](https://github.com/yu-heejin/LeetHub/tree/master/3767-find-students-who-improved) |
 ## Hash Table
 |  |
