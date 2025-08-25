@@ -33,6 +33,7 @@ LeetHub
 | [1258-article-views-i](https://github.com/yu-heejin/LeetHub/tree/master/1258-article-views-i) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/yu-heejin/LeetHub/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/yu-heejin/LeetHub/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
+| [1892-find-total-time-spent-by-each-employee](https://github.com/yu-heejin/LeetHub/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/yu-heejin/LeetHub/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3767-find-students-who-improved](https://github.com/yu-heejin/LeetHub/tree/master/3767-find-students-who-improved) |
 ## Hash Table
