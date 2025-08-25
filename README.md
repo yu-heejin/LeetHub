@@ -43,6 +43,7 @@ LeetHub
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yu-heejin/LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
+| [3379-score-of-a-string](https://github.com/yu-heejin/LeetHub/tree/master/3379-score-of-a-string) |
 ## Sliding Window
 |  |
 | ------- |
