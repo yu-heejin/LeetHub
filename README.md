@@ -39,6 +39,7 @@ LeetHub
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yu-heejin/LeetHub/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yu-heejin/LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
 ## String
 |  |
@@ -62,6 +63,7 @@ LeetHub
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yu-heejin/LeetHub/tree/master/0001-two-sum) |
 | [0134-gas-station](https://github.com/yu-heejin/LeetHub/tree/master/0134-gas-station) |
 ## Greedy
 |  |
