@@ -30,6 +30,7 @@ LeetHub
 | [0183-customers-who-never-order](https://github.com/yu-heejin/LeetHub/tree/master/0183-customers-who-never-order) |
 | [0262-trips-and-users](https://github.com/yu-heejin/LeetHub/tree/master/0262-trips-and-users) |
 | [0577-employee-bonus](https://github.com/yu-heejin/LeetHub/tree/master/0577-employee-bonus) |
+| [0586-customer-placing-the-largest-number-of-orders](https://github.com/yu-heejin/LeetHub/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0610-triangle-judgement](https://github.com/yu-heejin/LeetHub/tree/master/0610-triangle-judgement) |
 | [1155-product-sales-analysis-iii](https://github.com/yu-heejin/LeetHub/tree/master/1155-product-sales-analysis-iii) |
 | [1258-article-views-i](https://github.com/yu-heejin/LeetHub/tree/master/1258-article-views-i) |
