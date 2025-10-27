@@ -50,6 +50,7 @@ LeetHub
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yu-heejin/LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/yu-heejin/LeetHub/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/yu-heejin/LeetHub/tree/master/0014-longest-common-prefix) |
 | [3379-score-of-a-string](https://github.com/yu-heejin/LeetHub/tree/master/3379-score-of-a-string) |
 ## Sliding Window
 |  |
@@ -69,6 +70,7 @@ LeetHub
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yu-heejin/LeetHub/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/yu-heejin/LeetHub/tree/master/0014-longest-common-prefix) |
 | [0134-gas-station](https://github.com/yu-heejin/LeetHub/tree/master/0134-gas-station) |
 ## Greedy
 |  |
@@ -84,4 +86,8 @@ LeetHub
 |  |
 | ------- |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/yu-heejin/LeetHub/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/yu-heejin/LeetHub/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
